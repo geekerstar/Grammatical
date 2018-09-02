@@ -1,0 +1,7 @@
+state	 symbol	 input	 action
+0	$	i*(a+i)$	Shift to state 5
+05	$i	*(a+i)$	Reduce by production 6
+03	$F	*(a+i)$	Reduce by production 4
+02	$T	*(a+i)$	Shift to state 7
+027	$T*	(a+i)$	Shift to state 4
+这个输入不符合设定的SLR(1)文法-----------------------------------------
